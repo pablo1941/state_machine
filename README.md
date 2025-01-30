@@ -1,16 +1,19 @@
 # State Machine Project
 
-This project implements a state machine to handle warnings and alarms, and control Bicolour-LED and buzzer according a dataframe.
-
 ## Table of Contents
-- [Introduction](#introduction)
+- [Overview](#introduction)
 - [Features](#features)
 - [Files Description](#files-description)
 - [State handling](#state-handling)
 - [License](#license)
 
-## Introduction
-This firmware was developed in C language, implementing a state machine to handle alarmas and warnings throught LEDS and buzzer, with STM8S003F3P6 microcontroller and VS-Code and Cosmic8.
+## Overview
+This firmware implements a state machine to handle alerts and warnings through Bicolour-LED and buzzer according a dataframe defined.
+
+* C language
+* Microcontroller: STM8S003F3P6
+* IDE: VS-Code and Cosmic8.
+* Link: https://github.com/pablo1941/state_machine
 
 ## Features
 - Receive data from RX Interrupt
@@ -44,11 +47,3 @@ This firmware was developed in C language, implementing a state machine to handl
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please see the [CONTRIBUTING](CONTRIBUTING.md) file for guidelines.
-
-## Contact
-
-For any questions or suggestions, please open an issue or contact the repository owner.
